@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Qt Application with Visual Studio Debugger",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "visualizerFile": "c:\\Users\\heshan\\AppData\\Roaming\\Code\\User\\workspaceStorage\\d7d5efe607b76d71aaef8a67807622a0\\tonka3000.qtvsctools\\qt.natvis.xml",
+            "windows": {
+                "environment": [
+                    {
+                        "name": "PATH",
+                        "value": "${env:PATH};${command:qt-cpp.qtDir}"
+                    },
+                    {
+                        "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+                        "value": "${command:qt-cpp.QT_QPA_PLATFORM_PLUGIN_PATH}"
+                    },
+                    {
+                        "name": "QML_IMPORT_PATH",
+                        "value": "${command:qt-cpp.QML_IMPORT_PATH}"
+                    }
+                ]
+            }
+        }
+    ]
+}
