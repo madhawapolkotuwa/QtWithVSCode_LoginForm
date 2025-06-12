@@ -11,7 +11,7 @@
             "program": "${command:cmake.launchTargetPath}",
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "visualizerFile": "c:\\Users\\heshan\\AppData\\Roaming\\Code\\User\\workspaceStorage\\d7d5efe607b76d71aaef8a67807622a0\\tonka3000.qtvsctools\\qt.natvis.xml",
+            "visualizerFile": "${command:qt-cpp.natvis}",
             "windows": {
                 "environment": [
                     {
